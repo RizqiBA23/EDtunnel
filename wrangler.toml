@@ -4,20 +4,12 @@ compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
-routes = [
-  { pattern = "beat.rmtq.fun", custom_domain = true },
-  { pattern = "ava.game.naver.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "graph.instagram.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "investors.spotify.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "cache.netflix.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "blog.webex.com.beat.rmtq.fun", custom_domain = true },
-  { pattern = "support.zoom.us.beat.rmtq.fun", custom_domain = true },
-]
+[[routes]]
+pattern = "itrnet-host.my.id"
+custom_domain = true
 
 [vars]
-# PROXYIP = "35.219.50.99:443"
+PROXYIP = "35.219.50.99:443"
 UUID = "5043758c-3080-4a49-85aa-066ebffefd56"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
